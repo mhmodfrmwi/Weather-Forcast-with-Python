@@ -1,7 +1,7 @@
+import requests
 import tkinter as tk
 from tkinter import ttk
-from PIL import Image, ImageTk
-import requests
+from ttkthemes import ThemedTk
 
 def get_weather(api_key, location, days=1):
     api_url = f"https://weatherapi-com.p.rapidapi.com/forecast.json?q={location}&days={days}"
@@ -116,18 +116,18 @@ def create_gui():
     global weather_type_var, weather_type_radiobuttons, forecast_labels, temperature_result, humidity_result
     global wind_speed_result, pressure_result, precipitation_result
 
-    window = tk.Tk()
+    window = ThemedTk(theme="clam")
     window.title("Weather App")
     window.geometry("800x400")
-    window.configure(bg="#F5F5F5")
 
     api_key = "2cc349ca80msh51baff48f4fc4f1p1dca52jsn627ca1bfe60b"  # Replace with your API key
 
     style = ttk.Style()
-    style.configure('TFrame', background='#F5F5F5', highlightthickness=0)  # Set background color and remove border
-    style.configure('TLabel', background='#F5F5F5', font=('Arial', 12))
-    style.configure('TButton', background='#4CAF50', font=('Arial', 12), foreground='skyblue')
-    style.configure('TEntry', font=('Arial', 12), borderwidth=0, highlightbackground='#F5F5F5')  # Remove border
+    style.configure('TFrame', background='#EFEFEF', highlightthickness=0)  # Set background color and remove border
+    style.configure('TLabel', background='#EFEFEF', font=('Arial', 12))
+    style.configure('TButton', font=('Arial', 12))  # Use default button colors
+    style.configure('TEntry', font=('Arial', 12), borderwidth=0, highlightbackground='#EFEFEF')  # Remove border
+
 
     # Create a Frame widget
     frame = ttk.Frame(window)
