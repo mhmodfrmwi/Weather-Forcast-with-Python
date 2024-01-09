@@ -15,9 +15,10 @@ The Weather App is a simple and user-friendly application that provides real-tim
 
 ## Screenshots
 
-![Screenshot 2024-01-08 172044](https://github.com/mhmodfrmwi/Weather-Forcast-with-Python/assets/151141036/66b3f2f5-e40b-4457-b6bf-58428e5ca597)
-![Screenshot 2024-01-08 172018](https://github.com/mhmodfrmwi/Weather-Forcast-with-Python/assets/151141036/d9d77ad6-175d-4551-b63f-ae66e84daf86)
-![Screenshot 2024-01-08 171948](https://github.com/mhmodfrmwi/Weather-Forcast-with-Python/assets/151141036/451f7f66-b2b8-469a-b477-d7a187d14607)
+![Screenshot 2024-01-09 132516](https://github.com/mhmodfrmwi/Weather-Forcast-with-Python/assets/151141036/150cf992-7cfa-4d4b-ac05-480390f38b85)
+![Screenshot 2024-01-09 132537](https://github.com/mhmodfrmwi/Weather-Forcast-with-Python/assets/151141036/f97fad6d-c3a1-4b3d-aaec-d0517c17ce0b)
+![Screenshot 2024-01-09 132549](https://github.com/mhmodfrmwi/Weather-Forcast-with-Python/assets/151141036/3aa707e0-e03a-4ff0-a72d-e1b0fc31df43)
+
 
 
 ## Usage
@@ -27,11 +28,19 @@ The Weather App is a simple and user-friendly application that provides real-tim
 - Choose between "Current" weather or "3-Day Forecast" using the radio buttons.
 - Click the "Search" button to retrieve weather information.
 
-## Dependencies
+### Prerequisites
 
-- `tkinter`: GUI library for the interface.
-- `PIL`: Python Imaging Library for image processing.
-- `requests`: HTTP library for making API requests.
+- Python 3.x
+- `requests` library
+- `tkinter` library
+- `ttkthemes` library
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mhmodfrmwi/Weather-Forcast-with-Python.git
 
 ## API Key
 
