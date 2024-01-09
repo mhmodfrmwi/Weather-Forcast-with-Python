@@ -16,7 +16,11 @@ The Weather App is a simple and user-friendly application that provides real-tim
 ## Screenshots
 
 ![Screenshot 2024-01-09 132516](https://github.com/mhmodfrmwi/Weather-Forcast-with-Python/assets/151141036/150cf992-7cfa-4d4b-ac05-480390f38b85)
+
+
 ![Screenshot 2024-01-09 132537](https://github.com/mhmodfrmwi/Weather-Forcast-with-Python/assets/151141036/f97fad6d-c3a1-4b3d-aaec-d0517c17ce0b)
+
+
 ![Screenshot 2024-01-09 132549](https://github.com/mhmodfrmwi/Weather-Forcast-with-Python/assets/151141036/3aa707e0-e03a-4ff0-a72d-e1b0fc31df43)
 
 
